@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FleaCircus.exe" version="1.0.0.16" publicKeyToken="01683b50e316855d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="circus.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FleaCircus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FleaCircus.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FleaCircus.exe" size="222720">
+      <assemblyIdentity name="FleaCircus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sxAj66+ynNptBJ6P2mBmRyBFMdfFj4zS/owJyCj1wuE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="circus.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3o7g6U65zvd8F/IzH3M/V1+8xjDDK08ERdBSqwtmKT8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FleaCircus.exe.config" size="1123">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5xfFyXcGoNVThaIBwp/WbDlhh2RFm+s0JTLvffJNJbQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=smg-voyager\Scott" issuerKeyHash="0dcfb8673b85e8f79009748d149fbbd2eedc722c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P2LebVmS0X3zaUyXBWFRz2eMN2giCibH0JOPkKddZc4=</DigestValue></Reference></SignedInfo><SignatureValue>W0UaBmbYq3RavGH24A5lhLziUi+4g6GJM5ActAmGFVj9LdOrouAN6F79vrAG6S7EY98pA4aEm8/EcOHK7uHQXMrOUeyT3g/CDsESj6vRHu6dROxlzLhxmL0EeG8ULAuAC/vBVq5cMPZnstdQUj7R2RRUDh8pNF5kq3YY+YZ62LE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uzT6qpCJoVFj3vjzHViQZTYVtpKFC6xBrDjNaO1sRntbTHxqbw8hUMjm/y/OMmN2+2SwuveSn7sTka1NHdtNkYU3lt6GZ3PPW++7za1PlKdX2oBIcO0NXrmvoLroDGHGxro1dGr8o98MlbdF/rj61w9fC2r4u3WvxTLl1jGYbNk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce655da7908f93d0c7260a2268378c67cf516105974c69f37dd192596dde623f" Description="" Url=""><as:assemblyIdentity name="FleaCircus.exe" version="1.0.0.16" publicKeyToken="01683b50e316855d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=smg-voyager\Scott</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cswNBNJtiArC7kmeXHvDJfAWmD9/iqNOC+NZdLc3FIo=</DigestValue></Reference></SignedInfo><SignatureValue>CF0SOhiXKUhAgktKhihZ9MogiAP+/sDjl+0o6I30mOU17AMwJMNrNn0E4MhcJYhekHkCc2qy2JDKjsC/2mc904GRS0I5wkWkmQ/VdayXgqhXPTwKO5f/Nj8J8ZqXGWv1HtU/vXC2lu7spir1KNnzc2OCqTR2AbvHnK1PcD2rv9k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uzT6qpCJoVFj3vjzHViQZTYVtpKFC6xBrDjNaO1sRntbTHxqbw8hUMjm/y/OMmN2+2SwuveSn7sTka1NHdtNkYU3lt6GZ3PPW++7za1PlKdX2oBIcO0NXrmvoLroDGHGxro1dGr8o98MlbdF/rj61w9fC2r4u3WvxTLl1jGYbNk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQHCjVmP/H3rxEyaphMOzwqDANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAcwBtAGcALQB2AG8AeQBhAGcAZQByAFwAUwBjAG8AdAB0MB4XDTE0MDcxNjIzMTEyOVoXDTE1MDcxNzA1MTEyOVowLTErMCkGA1UEAx4iAHMAbQBnAC0AdgBvAHkAYQBnAGUAcgBcAFMAYwBvAHQAdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuzT6qpCJoVFj3vjzHViQZTYVtpKFC6xBrDjNaO1sRntbTHxqbw8hUMjm/y/OMmN2+2SwuveSn7sTka1NHdtNkYU3lt6GZ3PPW++7za1PlKdX2oBIcO0NXrmvoLroDGHGxro1dGr8o98MlbdF/rj61w9fC2r4u3WvxTLl1jGYbNkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAhkyJb6v+OJrs5Cdg0f0fKmRs+eS5bzDH+oNv3HS70jNXkeHLmkWsEaRPWkAv8VBC8vOsbuo/HcGKxQYOWu9a36gJ8BuE6q9tNqLIRPhaQULMHkox/XQkEXsZ51ALRzn2JkSZ3/tqQAQuYSAb5B9f1JC4C7bs1of152ZnEr2nkIA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
